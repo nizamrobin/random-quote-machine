@@ -1,0 +1,10 @@
+.social_icon {
+  color: white;
+  display: inline-block;
+  /* border: 1px; */
+  background-color: aqua;
+  padding: 10px;
+  color: #fff;
+  border-radius: 2px;
+  margin-right: 5px;
+}

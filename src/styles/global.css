@@ -1,0 +1,32 @@
+/* Global */
+* {
+  border: 0;
+  margin: 0;
+}
+
+body {
+  /* background-color: aqua; */
+  text-align: center;
+}
+
+/* Links & Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+/* Social Icons */
+.social {
+  /* border: 1px solid black; */
+}
+
+/* Developer */
+.developer {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  /* color: #fff; */
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}

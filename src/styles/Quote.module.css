@@ -1,0 +1,22 @@
+.quote_text {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.quote_icon {
+  font-size: 150px;
+  position: absolute;
+  /* height: inherit; */
+  height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.author {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 18px;
+  text-align: right;
+  font-weight: 300;
+  margin-top: 10px;
+}

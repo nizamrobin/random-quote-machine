@@ -1,0 +1,9 @@
+.new_quote_btn {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-color: aqua;
+  /* padding: 10px 20px; */
+  color: #fff;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
