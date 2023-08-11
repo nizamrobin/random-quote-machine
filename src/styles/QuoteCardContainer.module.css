@@ -1,8 +1,17 @@
 .quote_card_container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 70%;
+  overflow: hidden;
   box-shadow: 0 0 20px -5px #f0f0f0;
-  /* background-color: red; */
+}
+
+@media screen and (min-width: 480px) {
+  .quote_card_container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .quote_card_container {
+    width: 50%;
+  }
 }

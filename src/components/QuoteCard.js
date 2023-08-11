@@ -44,7 +44,7 @@ export default function QuoteCard(props) {
       <article className={classes.quote_card}>
         <Quote
           text={data[randomNum].text}
-          author={data[randomNum].author}
+          author={data[randomNum].author.replace(", type.fit", "")}
           style={{ color: randomColor }}
         />
 
