@@ -1,0 +1,7 @@
+.buttons {
+  color: aqua;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}

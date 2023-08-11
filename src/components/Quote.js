@@ -5,7 +5,6 @@ export default function Quote({ text, author, ...rest }) {
     <section className={classes.quote} {...rest}>
       <p className={classes.quote_text}>
         <span className={classes.quote_icon}>"</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         {text}
       </p>
       <aside className={classes.author}>

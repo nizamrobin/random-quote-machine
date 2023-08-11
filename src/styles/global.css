@@ -2,11 +2,19 @@
 * {
   border: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  /* background-color: aqua; */
-  text-align: center;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Links & Buttons */
@@ -24,9 +32,12 @@ body {
 /* Developer */
 .developer {
   font-family: "Yanone Kaffeesatz", sans-serif;
-  text-align: center;
-  /* color: #fff; */
-  margin-top: 20px;
+  /* text-align: center; */
+  /* margin-top: 20px; */
   font-weight: 300;
   letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  transform: translate(0, -100%);
 }
